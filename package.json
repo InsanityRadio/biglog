@@ -2,7 +2,7 @@
   "name": "biglog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/rotter.js",
   "directories": {
     "lib": "lib"
   },

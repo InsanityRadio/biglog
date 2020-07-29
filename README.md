@@ -18,6 +18,8 @@ const options = {
 new Rotter('http://your.streaming.url/monitor.mp3', 'station-name', options);
 ```
 
+Alternatively, edit biglog.json and biglog.js to your streams and preferred file format. Bonus, it'll automatically reload its configuration if you add/remove values in the config file. 
+
 ### Formatting
 
 - `%S` - the station ID

@@ -13,6 +13,7 @@
   "author": "",
   "license": "UNLICENSED",
   "dependencies": {
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "nexe": "^3.3.7"
   }
 }

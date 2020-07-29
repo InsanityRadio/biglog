@@ -2,7 +2,7 @@ import Rotter from './lib/rotter';
 import path from 'path';
 
 const options = {
-	directory: path.resolve('./logs'),
+	directory: path.resolve('./logs') + '/%S-%D',
 	format: '%S-%X.mp3'
 }
 

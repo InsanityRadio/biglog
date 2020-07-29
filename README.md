@@ -17,3 +17,16 @@ const options = {
 
 new Rotter('http://your.streaming.url/monitor.mp3', 'station-name', options);
 ```
+
+### Formatting
+
+- `%S` - the station ID
+- `%D` - YYYY-MM-DD
+- `%X` - YYYY-MM-DD_HH
+- `%U` - UNIX timestamp
+
+## Stability
+
+BigLog appends complete MP3 frames to a file in a chunked format. This means that once restarted, it'll immediately start appending fresh data to any pre-existing file for the current hour. It will create a new file (and directory, if needed) at the end of the hour, and write the next MP3 frame to the newly created file. This also means you can easily concatenate files without losing any data. 
+
+However, the project hasn't been extensively tested. Use at your own risk (but hopefully not for any broadcast critical compliance logging, get hardware!). Really, don't use this for broadcast critical compliance logging. 

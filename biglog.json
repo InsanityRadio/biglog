@@ -1,0 +1,18 @@
+[
+	{
+		"name": "sra-split-a",
+		"src": "http://contrib.insn.it:8000/sra-split-a.mp3"
+	},
+	{
+		"name": "sra-split-b",
+		"src": "http://contrib.insn.it:8000/sra-split-b.mp3"
+	},
+	{
+		"name": "sra-split-c",
+		"src": "http://contrib.insn.it:8000/sra-split-c.mp3"
+	},
+	{
+		"name": "sra-split-d",
+		"src": "http://contrib.insn.it:8000/sra-split-d.mp3"
+	}
+]
